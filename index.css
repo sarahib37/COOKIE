@@ -1,0 +1,172 @@
+/* general css */
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 430px;
+    margin: 0 auto;
+    padding: 0;
+    color: #222;
+}
+
+/* image */
+
+img{
+    width: 100%;
+}
+
+.animation{
+    height: 65px;
+}
+
+/* typography */
+
+h1{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+h3{
+    font-size: 21px;
+    line-height: 30px;
+}
+
+p{
+    font-size: 19px;
+    line-height: 30px;
+}
+
+#loading-text{
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    
+}
+
+.modal-display-name{
+    color: fuchsia;
+}
+
+/* list css */
+
+ul{
+    list-style: none;
+    padding: 5px 0 0;
+}
+
+li{
+    margin-bottom: 12px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.green{background-color: #E5FDEA}
+.yellow{background-color: #FCFDD6;}
+.blue{background-color: #E5F9FE;}
+.pink{background-color: #FCF1FE;}
+
+
+/* form css */
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-buttons{
+    display: flex;
+    gap: 4px;
+    padding: 8px 16px; 
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+
+/* modal css starts here*/
+
+/* modal containers */
+
+
+.modal-container{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 350px;
+    height: 420px;
+    color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #212529;
+    
+}
+
+.modal-container p{
+    font-weight: bold;
+    line-height: 23px;
+    font-size: 18.5px;
+}
+
+.modal-container2{
+    padding: 25px;
+}
+
+/* close button */
+
+.close-button{
+    display: block;
+    cursor: pointer;
+    margin-left: auto;
+    background: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.close-button:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.close-button:hover{
+    color: red;
+}
+
+.button-container{
+    position: relative;
+    margin: 0px;
+}
+
+
+/* modal inputs */
+
+input{
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 6px 1px #666;
+}
+
+form button{
+    border: none;
+    border-radius: 2px;
+    padding: 8px 20px;
+    margin: 8px -1.5px;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+}
